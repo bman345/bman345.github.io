@@ -26,7 +26,7 @@ function App() {
       <Router>
         <Nav />
         <Routes>
-          <Route path='/' element={<Tasks user={new Account(snapshot, user.uid)}/>} />
+          <Route exact path='/' element={<Tasks user={new Account(snapshot, user.uid)}/>} />
         </Routes>
         <Routes>
           <Route path='/logout' element={<Logout />} />
