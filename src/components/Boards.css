@@ -1,0 +1,22 @@
+
+
+.boardSidebar {
+    width: 20%;
+    background-color: blue;
+}
+
+.boardTile {
+    width: 300px;
+    height: 100px;
+    border-radius: 7px;
+    border: 3px solid lightgray;
+    margin: 20px;
+    transition-duration: 300ms;
+    font-size: 50px;
+}
+
+
+.boardTile:hover {
+    height: 200px;
+    transition-duration: 300ms;
+}
